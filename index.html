@@ -3,10 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ID & Classes </title>
+    <title>Document</title>
+    <style>
+        .red {
+            background-color: red;
+        }
+        #green {
+            background-color: green;
+        }
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        *{
+            margin:0;
+            padding: 0;
+        }
+
+        /* Universal Selector */
+
+        a:visited{
+            color: yellow;
+        }
+
+        a:link{
+            color: blue;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+
+        .box {
+            background-color: aqua;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1{
+            coloe: yellow;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid blue;
+            height: 50px;
+            box-sizing: border-box;
+        }
+
+        .box2{
+            color: red;
+            padding: 10px;
+            margin: 25px;
+            border: 2px solid blue;
+            height: 50px;
+            box-sizing: border-box;
+        }
+
+    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div id="firstdiv" class="red"></div>
-    <span class="red"></span>
+    <div class="box box1">
+        I am a Box
+    </div>
+    <div class="box box2">
+        I am Another Box
+    </div>
+    <h1>
+        Three Ways to add CSS to HTML
+    </h1>
+    <div class="red">
+        I am a Div
+        <article>
+            <p>
+                This is a Paragraph Under Article
+            </p>
+        </article>
+    </div>
+    <div id="green">
+        Everyone is good in Someway or the Other. Doea This Even Make any Sence
+    </div>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">Facebook</a>
 </body>
 </html>
