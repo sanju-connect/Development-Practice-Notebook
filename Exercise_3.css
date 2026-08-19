@@ -1,1 +1,42 @@
+body{
+    background-color: whitesmoke;
+}
 
+.box{
+  height: 513px;
+  width: 366px;
+  border-radius: 25px;
+  margin: 391px;
+  padding: 11px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.buttons {
+    border-radius: 25%;
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    border-color: rgb(209, 206, 206);
+    color: rgb(162, 143, 143);
+}
+
+.texts {
+    color: rgb(105, 88, 88);
+}
+
+.forward {
+    color: rgb(13, 97, 231);
+    background-color: rgb(76, 187, 242);
+    left: 50%;
+    bottom: 20px;
+    border-radius: 200px;
+    height: 40px;
+    width: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
