@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .container {
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+        }
+        .box {
+            background-color: yellowgreen;
+            height: 10vh;
+            width: 10vw;
+            animation: identifier, identifier2;
+            animation-duration: 3s, 3s;
+            animation-timing-function: ease-in-out, ease-in-out;
+        }
+
+        @keyframes identifier {
+            from {
+                background-color: red;
+            }
+            to {
+                background-color: bisque;
+                transform: translateX(100px);
+            }
+        }
+        @keyframes identifier2 {
+            0%{
+                transform: rotate(30deg);
+            }
+            20%{
+                transform: rotate(60deg);
+            }
+            50%{
+                transform: rotate(90deg);
+            }
+            80%{
+                transform: rotate(120deg);
+            }
+            100%{
+                transform: rotate(180deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Box
+        </div>
+    </div>
+</body>
+</html>
